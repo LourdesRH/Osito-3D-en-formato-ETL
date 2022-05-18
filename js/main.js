@@ -86,7 +86,7 @@ function animate() {
 	requestAnimationFrame( animate );
 	render();
 	stats.update();
-}
+} 
 function render() {
 	const timer = Date.now() * 0.0005; //velocidad de las vueltas
 	camera.position.x = Math.cos( timer ) * 3;
