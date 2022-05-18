@@ -31,7 +31,7 @@ function init() {
 	
 	// figura del circulito
 	const loader = new STLLoader();
-	loader.load( './model/panda_t.stl', function ( geometry ) {		
+	loader.load( './model/Panda_t.stl', function ( geometry ) {		
 		const material = new THREE.MeshPhongMaterial( 
 			//color verdecito 
 			{ color: 0x484030, specular: 0x111111, shininess: 200 } );
